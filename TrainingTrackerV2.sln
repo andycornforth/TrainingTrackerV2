@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "TrainingTrackerDB", "TrainingTrackerV2\TrainingTrackerDB.sqlproj", "{F05A6B73-ED1A-454D-82B7-B13F2A4B1449}"
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "TrainingTrackerDB", "db\TrainingTrackerV2\TrainingTrackerDB.sqlproj", "{F05A6B73-ED1A-454D-82B7-B13F2A4B1449}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "TrainingTracker.Service", "TrainingTracker.Service\TrainingTracker.Service.xproj", "{3D7F5B62-4D52-406F-993B-1035612F894E}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "TrainingTracker.Service", "src\TrainingTracker.Service\TrainingTracker.Service.xproj", "{3D7F5B62-4D52-406F-993B-1035612F894E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D5DDBCA1-5B42-4541-BDF7-AAD27332DC4C}"
 EndProject
@@ -13,11 +13,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{40F057C7-4
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "db", "db", "{66698131-508B-4504-A60E-182B55D3C406}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "TrainingTracker.Service.Tests", "TrainingTracker.Service.Tests\TrainingTracker.Service.Tests.xproj", "{1E24E95C-916B-4651-A3A0-2A88D334E32F}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "TrainingTracker.Service.Tests", "test\TrainingTracker.Service.Tests\TrainingTracker.Service.Tests.xproj", "{1E24E95C-916B-4651-A3A0-2A88D334E32F}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "TrainingTracker.Api", "TrainingTracker.Api\TrainingTracker.Api.xproj", "{0B12CA30-A521-4535-B099-549307FA36D4}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "TrainingTracker.Api", "src\TrainingTracker.Api\TrainingTracker.Api.xproj", "{0B12CA30-A521-4535-B099-549307FA36D4}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "TrainingTracker.Api.Tests", "TrainingTracker.Api.Tests\TrainingTracker.Api.Tests.xproj", "{7678C904-72E7-4D8D-8599-ACD8052DFEFD}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "TrainingTracker.Api.Tests", "test\TrainingTracker.Api.Tests\TrainingTracker.Api.Tests.xproj", "{7678C904-72E7-4D8D-8599-ACD8052DFEFD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
