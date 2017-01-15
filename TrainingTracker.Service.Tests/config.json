@@ -1,0 +1,5 @@
+﻿{
+  "connectionStrings": {
+    "TrainingTracker": "Data Source=.;Initial Catalog=TrainingTracker_Test;integrated security=sspi"
+  }
+}

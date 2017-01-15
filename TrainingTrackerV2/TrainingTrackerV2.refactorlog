@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="af4258a5-0847-494e-8237-d95df2d55662" ChangeDateTime="01/14/2017 11:24:22">
+    <Property Name="ElementName" Value="[dbo].[User].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[User]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="UserId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="81b402e4-47d4-4cc4-b1f5-1b16f903edb4" ChangeDateTime="01/14/2017 11:26:46">
+    <Property Name="ElementName" Value="[dbo].[Log].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Log]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="LogId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="7ad71b71-4d50-49f8-a7d3-9a689c5b9742" ChangeDateTime="01/14/2017 11:30:32">
+    <Property Name="ElementName" Value="[dbo].[Exercise].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Exercise]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ExerciseId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="b86f952a-5bf5-4354-aa54-24e696e0f1f2" ChangeDateTime="01/14/2017 11:31:53">
+    <Property Name="ElementName" Value="[dbo].[Set].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Set]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="SetId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="f81b6dec-36d8-4f5b-be06-9dc10123a7f8" ChangeDateTime="01/14/2017 11:32:18">
+    <Property Name="ElementName" Value="[dbo].[Set].[Exercise]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Set]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ExerciseId" />
+  </Operation>
+</Operations>
