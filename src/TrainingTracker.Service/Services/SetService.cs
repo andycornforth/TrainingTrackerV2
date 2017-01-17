@@ -17,6 +17,9 @@ namespace TrainingTracker.Service.Services
 
         public int Add(Set set)
         {
+            if(set.DateAdded == DateTime.MinValue)
+                set.DateAdded = DateTime.UtcNow;
+
             return _setRepository.Add(set);
         }
 

@@ -9,6 +9,8 @@ namespace TrainingTracker.Api
         {
             CreateMap<Log, Service.Models.Log>();
             CreateMap<Service.Models.Log, Log>();
+            CreateMap<Set, Service.Models.Set>();
+            CreateMap<Service.Models.Set, Set>();
         }
     }
 }

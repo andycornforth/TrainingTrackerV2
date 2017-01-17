@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using FluentAssertions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
@@ -28,6 +29,15 @@ namespace TrainingTracker.Service.Tests.Services
             var id = _service.Add(new Set());
             id.Should().Be(1);
             _setRepositoryMock.Verify(x => x.Add(It.IsAny<Set>()), Times.Once());
+        }
+
+        [TestMethod]
+        public void Should_set_DateAdded_to_utc_now_given_it_is_not_provided()
+        {
+            var set = new Set();
+            _setRepositoryMock.Setup(x => x.Add(It.IsAny<Set>())).Returns(1);
+            _service.Add(set);
+            set.DateAdded.Should().BeCloseTo(DateTime.UtcNow);
         }
 
         [TestMethod]

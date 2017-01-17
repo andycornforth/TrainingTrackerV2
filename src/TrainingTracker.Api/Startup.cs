@@ -62,8 +62,11 @@ namespace TrainingTracker.Api
         public void ConfigureIoC(IServiceCollection services)
         {
             services.AddTransient<ILogService, LogService>();
+            services.AddTransient<ISetService, SetService>();
             services.AddTransient<ILogRepository>(
                 repo => new LogRepository(Configuration.GetSection("ConnectionStrings")["TrainingTracker"]));
+            services.AddTransient<ISetRepository>(
+                repo => new SetRepository(Configuration.GetSection("ConnectionStrings")["TrainingTracker"]));
         }
     }
 }

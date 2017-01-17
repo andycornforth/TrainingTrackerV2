@@ -241,3 +241,4 @@ ModelManifest.xml
 # FAKE - F# Make
 .fake/
 /TrainingTrackerV2/TrainingTrackerV2.jfm
+/db/TrainingTrackerV2/TrainingTrackerDB.jfm

@@ -27,7 +27,7 @@ namespace TrainingTracker.Api.Tests
         }
 
         [TestMethod]
-        public void Should_create_log_with_valid_request()
+        public void Should_create_log_with_valid_post_request()
         {
             _logServiceMock.Setup(x => x.Add(It.IsAny<Service.Models.Log>())).Returns(1);
 
@@ -44,7 +44,7 @@ namespace TrainingTracker.Api.Tests
         }
 
         [TestMethod]
-        public void Should_get_log_by_id_with_valid_request()
+        public void Should_get_log_by_id_with_valid_get_request()
         {
             var serviceLog = ServiceLog;
             var apiLog = new Log();
